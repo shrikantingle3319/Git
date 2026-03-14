@@ -54,3 +54,4 @@ Simple-Interest-Calculator
 This project is open-source and free to use for learning purposes.
 
 ---
+Fixed a typo in README.
