@@ -1,1 +1,8 @@
+LENOVO@DESKTOP-353194A MINGW64 ~/Git (main)
+$ git checkout main
+Already on 'main'
+Your branch is up to date with 'origin/main'.
 
+LENOVO@DESKTOP-353194A MINGW64 ~/Git (main)
+$ git merge bug-fix-typo
+merge: bug-fix-typo - not something we can merge
