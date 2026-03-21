@@ -1,11 +1,14 @@
-LENOVO@DESKTOP-353194A MINGW64 ~/Git (bug-fix-typo)
-$ git checkout main
+PS D:\Game> git config --global user.email "inglesp2003@gmail.com"      
+PS D:\Game> git config --global user.name "shrikantingle3319"
+PS D:\Game> git commit -m "Fix a typo in README.md"
+[bug-fix-typo (root-commit) 85e542e] Fix a typo in README.md
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 README.md
+PS D:\Game> git checkout -b main
+Switched to a new branch 'main'
+PS D:\Game> git checkout bug-fix-typo
+Switched to branch 'bug-fix-typo'
+PS D:\Game> git checkout main
 Switched to branch 'main'
-Your branch is up to date with 'origin/main'.
-
-LENOVO@DESKTOP-353194A MINGW64 ~/Git (main)
-$ git merge bug-fix-typo
-Updating fd59203..c3cd7b0
-Fast-forward
- README.md | 3 ++-
- 1 file changed, 2 insertions(+), 1 deletion(-)
+PS D:\Game> git merge bug-fix-typo
+Already up to date.
